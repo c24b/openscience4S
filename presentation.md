@@ -11,6 +11,7 @@
 * A specific article about open access and text and data mining
 
 Note: Ici les notes des speakers
+
 ---
 
 ## 2 main goals

@@ -1,10 +1,25 @@
+
 # Mapping Open Access/Science controversies: the case of the French "digital law" consultation
 
-Datasets and presentation for the 4S Comference 2016
+Datasets and presentation for the 4S Conference 2016
 Open Science : the french law [4S]
+
 
 Authors: Constance de Quatrebarbes (IFRIS)
 Célya Gruson-Daniel (Centre Virchow-Villerme/Université Technologique de Compiègne/ Centre de Recherches Interdisciplinaires)
+
+* Presentation of the talk:
+  * use reveal-md reveal-md presentation.md to generate the presentation
+
+* Source code of the work:
+  * use jupyter notebook for generating the graph in python
+  * generate the graph using gephi
+
+
+
+
+
+------------
 
 ## Short Abstract
 
