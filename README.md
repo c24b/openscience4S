@@ -10,6 +10,8 @@ Célya Gruson-Daniel (Centre Virchow-Villerme/Université Technologique de Compi
 
 * Presentation of the talk:
   * use reveal-md reveal-md presentation.md to generate the presentation
+  see how [md > reveal] (https://github.com/webpro/reveal-md)
+  see how [reveal] (http://lab.hakim.se/reveal-js/#/)
 
 * Source code of the work:
   * use jupyter notebook for generating the graph in python
