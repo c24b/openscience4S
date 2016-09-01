@@ -1,0 +1,223 @@
+@font-face {
+    font-family: Symbola;
+    src: url(font/Symbola.ttf);
+}
+
+.reveal span.py {
+    font-weight: bolder;
+    //background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.reveal .py:before {
+    font-family: "Symbola";
+    background-color: #568ebd;
+    content: '🐍';
+    display: inline-block;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    font-weight: normal;
+    margin-right: 4px;
+    //background-color: rgba(255, 255, 255, 0.8);
+    padding: 4px;
+    color: black;
+    border-radius: 20px;
+}
+.reveal .py:after {
+    font-family: "Symbola";
+    background-color: #ffd54f;
+    content: '🐍';
+    font-weight: normal;
+    margin-left: 4px;
+    //background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    padding: 4px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.reveal .cookie:before {
+    font-family: "Symbola";
+    content: '🍪 ';
+    font-weight: normal;
+    //background-color: rgba(255, 255, 255, 0.8);
+    padding: 4px;
+    margin-right: -6px;
+}
+.reveal .cookie:after {
+    font-family: "Symbola";
+    content: '🍪 ';
+    font-weight: normal;
+    //background-color: rgba(255, 255, 255, 0.8);
+    padding: 4px;
+}
+
+.reveal .slides section .fragment.result {
+    color: rgba(237, 237, 237, 0.2);
+    opacity: 0.2;
+    font-weight: normal;
+}
+.reveal .slides section .fragment.result.visible {
+    color: #0066FF;
+    opacity: 1;
+    font-weight: bolder;
+}
+
+.reveal .slides section .result {
+    display: block;
+    margin-bottom: 16px;
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.right {
+    float: right;
+}
+
+.reveal section img {
+    border: 0;
+    background: transparent;
+    box-shadow: None;
+}
+
+.reveal a.baseline:not(.image) {
+    vertical-align: text-bottom !important;
+}
+
+.reveal span.ref.link {
+    font-size: 60%;
+    padding-left: 0.1em;
+    vertical-align: super;
+}
+.reveal div.refs {
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: left;
+    font-size: 70%;
+    padding-left: 16px;
+}
+.reveal span.ref.anchor {
+    font-size: 60%;
+    padding-left: 1em;
+    vertical-align: super;
+}
+
+.reveal h2 span.mini {
+    font-size: 70%;
+    padding-left: 8px;
+}
+
+.reveal ul {
+    margin-bottom: 15px;
+}
+
+.reveal pre code {
+    max-height: 540px;
+    font-size: 88%;
+}
+
+.reveal h2 img {
+    height: 160px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.reveal div.source {
+    text-align: right;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    margin-top: -14px;
+    right: 5%;
+}
+
+.reveal .symbol {
+    font-family: "Symbola";
+    font-size: 60px;
+ }
+
+.reveal .schema {
+    font-size: 60%;
+    line-height: 1.4;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.reveal .schema td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.reveal .schema tr:nth-of-type(2) td:nth-of-type(even) {
+    font-size: 60px;
+    padding: 0 40px;
+}
+
+.reveal .schema tr:nth-of-type(2) td:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.reveal .schema td pre {
+    font-size: 100%;
+    box-shadow: None;
+    white-space: nowrap;
+}
+
+.left {
+    float: left;
+}
+
+.top {
+    display: block;
+}
+
+.reveal table.xpath {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 70%;
+    line-height: 1.1;
+}
+.reveal table.xpath tr:nth-of-type(1) td {
+    border-bottom: 1px solid white;
+}
+
+.reveal p {
+    text-align: left;
+}
+
+.reveal ul.links {
+    list-style-type: None;
+    margin-bottom: 80px;
+}
+
+.reveal .links .symbol {
+    display: inline-block;
+    width: 80px;
+}
+
+mark {
+    border-radius: 2px;
+    display: inline-block;
+    background-color: #f08a24;
+    color: #fff;
+}
+li.index {
+    list-style-type:none;
+}
+li.index:before {
+    content: "\261E  ";
+}
+span.clouditem {
+  padding-left: 0.15em;
+  padding-right: 0.15em;
+  line-height: 90%;
+}
+/*
+section.header {
+    background-color: #F2C329;
+    
+}
+*/
