@@ -4,27 +4,27 @@
   "data": "data.json",
   "logo": {
     "file": "",
-    "link": "",
-    "text": "c24b"
+    "link": "https://github.com/c24b/openscience4S",
+    "text": "Constance de Quatrebarbes, Célya Gruson-Daniel"
   },
   "text": {
-    "more": "Behaviour of the elector debate on Article 9",
-    "intro": "The behaviour of the electors on the Article9 \"Open Science\" of Digital Republique Law",
-    "title": "Mapping the behaviour of debate"
+    "more": "Carto 5-7- modularité \n\nCette carto a pour but de mettre en évidence les électeurs les plus actifs (au moins 5 votes) et partageant la plus grande similarité au niveau vote (on enlève tous ceux qui ne partagent pas au moins 7 votes identiques). \n\n1/ Répartition noeud : \nUn algorithme de spatialisation (Fruchterman Reingold)  pour répartir les noeuds dans l’espace. \nUne gravité de 2.0 a été choisie pour faciliter la lecture (réseau assez concentré).\n\nArrêt quand c’est un peu stabilisé. On peut déjà évolué un graphe avec deux cliques principales et dans la clique principale deux autres semblent se distinguer. \n\n2/ Pour distinguer les communautés on calcule la modularité \n\nLa modularité va permettre de définir des groupes. Ici la modularité (résolution 1.0) est de 0,390 avec un nombre de communautés de 5 \n\n3/ Partition \n\nEnsuite on sépare le graph en différentes couleurs selon la modularité \n\n",
+    "intro": "",
+    "title": "Communautés électeurs sur l\u0027article 9 République Numérique en fonction de leur similarité de votes "
   },
   "legend": {
-    "edgeLabel": "has vote has",
-    "colorLabel": "blue",
-    "nodeLabel": "electeur"
+    "edgeLabel": "Vote",
+    "colorLabel": "",
+    "nodeLabel": "Electeurs"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "nb_votes",
+    "groupSelectorAttribute": "Modularity Class",
     "hoverBehavior": "default"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "Label"
   },
   "sigma": {
     "drawingProperties": {
