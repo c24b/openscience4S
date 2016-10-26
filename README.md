@@ -9,9 +9,7 @@ Authors: Constance de Quatrebarbes (IFRIS)
 Célya Gruson-Daniel (Centre Virchow-Villerme/Université Technologique de Compiègne/ Centre de Recherches Interdisciplinaires)
 
 * Presentation of the talk:
-  * use reveal-md reveal-md presentation.md to generate the presentation
-    * see how [md > reveal] (https://github.com/webpro/reveal-md)
-    * see how [reveal] (http://lab.hakim.se/reveal-js/#/)
+  [Online presentation](http://c24b.github.io/conferences/openscience4S2016/openscience4S.html)
 
 * Source code of the work:
   * use jupyter notebook for generating the graph in python
